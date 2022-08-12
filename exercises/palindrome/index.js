@@ -9,8 +9,8 @@
 
 function palindrome(str) {
   // #1 Solution
-  //   const reversedString = str.split("").reverse().join().replaceAll(",", "");
-  //   return reversedString === str;
+  const reversedString = str.split("").reverse().join().replaceAll(",", "");
+  return reversedString === str;
   // ===============================================================
   // #2 Solution
   // const strArr = str.split("");
